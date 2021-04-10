@@ -5,7 +5,6 @@
 This project uses various sampling techniques in coordination with logistic regression in order to create models for predicting the risk of loan applicants.
 
 ## Table of contents
-* [Overview](#overview)
 * [Summary](#summary)
 
 ## Summary
