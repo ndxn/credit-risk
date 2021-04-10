@@ -6,6 +6,7 @@ This project uses various sampling techniques in coordination with logistic regr
 
 ## Table of contents
 * [Overview](#overview)
+* [Summary](#summary)
 
 ## Summary
 
