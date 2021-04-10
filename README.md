@@ -1,8 +1,11 @@
 # Credit Risk Analysis
 
-## 
+## Overview
 
-This project uses various resampling techniques in coordination with logistic regression in order to create models for predicting the risk of loan applicants.
+This project uses various sampling techniques in coordination with logistic regression in order to create models for predicting the risk of loan applicants.
+
+## Table of contents
+* [Overview](#overview)
 
 ## Summary
 
