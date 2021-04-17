@@ -12,7 +12,7 @@ The nature of credit risk, where the number of high quality loans significantly 
 * [Goals](#goals)
 * [Summary](#summary)
 * [Findings](#findings)
-* [Challenges and Next Steps](#Challenges and Next Steps)
+* [Challenges and Next Steps](#ChallengesandNextSteps)
 
 ## Goals
 
