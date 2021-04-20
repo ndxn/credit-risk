@@ -6,8 +6,6 @@ This project involves the creation and evaluation of  machine learning models to
 
 The nature of credit risk, where the number of high quality loans significantly outweighs the number of risky loans, means it is charactrized as an unbalanced classification problem. As such, different techniques for predicting credit risk requires the deployment and assessment of different predictive models. The Jupyter Notebook details the process, using imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. Also within the Notebook to evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
 
-
-
 ## Table of contents
 * [Goals](#goals)
 * [Summary](#summary)
@@ -21,6 +19,7 @@ The goals of this challenge were to:
 - Implement machine learning models.
 - Use resampling to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
+[Back to Top](#credit-risk-analysis)
 
 ## Summary
 
