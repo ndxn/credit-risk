@@ -40,12 +40,18 @@ Apropos to the resampling methods, which are discussed below, the training set h
 
 **SMOTEEN Combination Sampling** Using a combination of oversampling the minority class and undersampling the majority class, the SMOTEEN method of resampling rendered 51,361 instances of high risk and 46,653 instances of low risk. The balanced accuracy score was 0.64. Recall for high risk was 0.70 and precision was 0.01.
 
+[Back to Top](#credit-risk-analysis)
+
 ## Findings
 
 Based on the need to avoid fiscal losses associated with lending to high risk borrowers, the random oversampling method, with a recall of 0.74 and a balanced accuracy score or 0.65, would be the best choice in this case. The recall rate on the high-risk class means that approximately 3 out of 4 predictions are correct.
 
 An alternate method for resampling with similar performance is SMOTEEN, though it does not fare quite as well in terms of recall.
 
+[Back to Top](#credit-risk-analysis)
+
 ## Challenges and Next Steps
 
 The methods of resampling only had a relatively low impact on the recall of the model. As such, an alternate method for predicting, as to be taken up in the extension, may provide better results than the logistic regression.
+
+[Back to Top](#credit-risk-analysis)
