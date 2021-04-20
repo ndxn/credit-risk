@@ -19,6 +19,7 @@ The goals of this challenge were to:
 - Implement machine learning models.
 - Use resampling to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
+
 [Back to Top](#credit-risk-analysis)
 
 ## Summary
