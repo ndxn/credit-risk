@@ -32,15 +32,17 @@ The balanced accuracy score considers the proportion of correct predictions in e
 
 Apropos to the resampling methods, which are discussed below, the training set has 246 instances of high risk applicants and 51,366 inscances of low risk applicants. As such, any oversampling will be performed on the high risk class and undersampling will be performed on the low risk class. 
 
-**Random Oversampling**. Using naive random oversampling, the populations were balanced with 51,366 instances each. The balanced accuracy score was 0.65. The recall on the high risk borrowers was 0.74 while the precision was 0.01. In this case, 0.74 is a relatively respectable precision on the relevant class.
+**Random Oversampling**\
+Using naive random oversampling, the populations were balanced with 51,366 instances each. The balanced accuracy score was 0.65. The recall on the high risk borrowers was 0.74 while the precision was 0.01. In this case, 0.74 is a relatively respectable precision on the relevant class.
 
-**SMOTE Oversampling**\ Interpolating additional values brought both sample classes up to 51,366 instances. The balanced accuracy score was 0.65. The recall for high risk borrowers was 0.62 while the precision was 0.01. 
+**SMOTE Oversampling**  
+Interpolating additional values brought both sample classes up to 51,366 instances. The balanced accuracy score was 0.65. The recall for high risk borrowers was 0.62 while the precision was 0.01. 
 
-**Cluster Centriod Undersampling**
+**Cluster Centriod Undersampling**\
 The processor-intensive process or winnowing down samples let the population for the regresssion to consist of only 246 instances per class. The balanced accuracy score was 0.54. Recall on the high risk class was 0.67 and precion was 0.01
 
-**SMOTEEN Combination Sampling**
-\Using a combination of oversampling the minority class and undersampling the majority class, the SMOTEEN method of resampling rendered 51,361 instances of high risk and 46,653 instances of low risk. The balanced accuracy score was 0.64. Recall for high risk was 0.70 and precision was 0.01.
+**SMOTEEN Combination Sampling**  
+Using a combination of oversampling the minority class and undersampling the majority class, the SMOTEEN method of resampling rendered 51,361 instances of high risk and 46,653 instances of low risk. The balanced accuracy score was 0.64. Recall for high risk was 0.70 and precision was 0.01.
 
 [Back to Top](#credit-risk-analysis)
 
