@@ -8,9 +8,11 @@ The nature of credit risk, where the number of high quality loans significantly 
 
 ## Table of contents
 * [Goals](#goals)
+* [Tools Used](#Tools-used)
 * [Summary](#summary)
 * [Findings](#findings)
 * [Challenges and Next Steps](#Challenges-and-Next-Steps)
+* [Data Source](#Data-source)
 
 ## Goals
 
@@ -19,6 +21,23 @@ The goals of this challenge were to:
 - Implement machine learning models.
 - Use resampling to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
+
+[Back to Top](#credit-risk-analysis)
+
+## Tools and Technologies
+**Environment** Jupyter Notebook 
+**Language** Python 3.7.6 using the following dependencies:
+- Something
+- Something else
+**Methodolies**
+* Supervised Learning
+* Logistic Regression
+* Classification Model Validation
+* Support Vector Machines
+* Decision Trees
+* Ensemble Learning
+* Bagging and Boosting
+* Class Imbalance and Resampling
 
 [Back to Top](#credit-risk-analysis)
 
