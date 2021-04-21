@@ -25,10 +25,10 @@ The goals of this challenge were to:
 [Back to Top](#credit-risk-analysis)
 
 ## Tools and Technologies
-**Environment** Jupyter Notebook 
+**Environment** Jupyter Notebook  
 **Language** Python 3.7.6 using the following dependencies:
 - Something
-- Something else
+- Something else  
 **Methodolies**
 * Supervised Learning
 * Logistic Regression
