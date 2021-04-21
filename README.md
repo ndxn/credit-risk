@@ -26,9 +26,9 @@ The goals of this challenge were to:
 
 The critical element of this project is assessing various methods yields the sample that will have the best results when the fitted regression model is applied to the test data. In order to assess the usefulness of the sampling methods when the model is applied, several criteria are considered. However, it's important to consider which measure is more important. In this case, there are two potential problematic outcomes--first, that a high-risk applicant be granted a loan and, second, that a low-risk applicant be rejected. The more important issue at hand is that applicants that are high risk be identified as a rejected low-risk applicant would have the option to appeal. This understanding helps in choosing from the different metrics.
 
-The first two of the metrics available are precision and recall. Precision can understood as a measure of the number of identified items are accurate. High precision means that a high ratio of what the model identifies is correct. Recall considers the relevant items, in this case, applicants with high risk. Recall is a measure of the ratio of relevant items correctly identified to the total number of relevant items.
+The first two of the metrics available are precision and recall. Precision can be understood as a measure of the number of predicted positives that are actually positive. High precision means that a high ratio of what the model identifies is correct, however, it fails to take into account the ratio of positives that are identified. Recall considers the relevant metrics, in this case, applicants with high risk. Recall is a measure of the ratio of those cases that correctly identified to the total number of the relevant cases, in other words, it is a measurement of the number of relevant predictions that are caught by the model. The drawback of the recall metric is that it ignores false positives which, in this case, would mean non-fraudulent cases that are flagged as fraudulent.
 
-The balanced accuracy score considers the proportion of correct predictions in each class and, thus, provides a general assessment of the model.
+The third metric considered in this repository is the balanced accuracy score. The balanced accuracy score considers the proportion of correct predictions in each class and, thus, provides a general assessment of the model.
 
 Apropos to the resampling methods, which are discussed below, the training set has 246 instances of high risk applicants and 51,366 inscances of low risk applicants. As such, any oversampling will be performed on the high risk class and undersampling will be performed on the low risk class. 
 
@@ -48,7 +48,7 @@ Using a combination of oversampling the minority class and undersampling the maj
 
 ## Findings
 
-Based on the need to avoid fiscal losses associated with lending to high risk borrowers, the random oversampling method, with a recall of 0.74 and a balanced accuracy score or 0.65, would be the best choice in this case. The recall rate on the high-risk class means that approximately 3 out of 4 predictions are correct.
+Based on the need to avoid fiscal losses associated with lending to high risk borrowers, the random oversampling method, with a recall of 0.74 and a balanced accuracy score of 0.65, would be the best choice. The recall rate on the high-risk class means that approximately 3 out of 4 predictions are correct.
 
 An alternate method for resampling with similar performance is SMOTEEN, though it does not fare quite as well in terms of recall.
 
